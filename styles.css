@@ -45,12 +45,13 @@ h1 {
 p{
     font-size: 70px;
     color: rgba(14, 74, 147, 0.867);
+    font-weight: 550;
 }
 
 .timer-area {
     background: rgb(244, 250, 252);
-    width: 390px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,4 +76,5 @@ button {
     margin: 18px 3px;
     color: white;
     background: rgba(9, 53, 108, 0.69);
+    cursor: pointer;
 }
