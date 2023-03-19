@@ -60,3 +60,19 @@ p{
     position: absolute;
     top: 85px;
 }
+
+button {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.475);
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 18px 3px;
+    color: white;
+    background: rgba(9, 53, 108, 0.69);
+}
