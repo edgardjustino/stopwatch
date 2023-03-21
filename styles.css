@@ -51,7 +51,7 @@ p{
 .timer-area {
     background: rgb(244, 250, 252);
     width: 400px;
-    height: 190px;
+    min-height: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,4 +77,19 @@ button {
     color: white;
     background: rgba(9, 53, 108, 0.69);
     cursor: pointer;
+}
+
+.lap-area {
+    border-radius: 5px;
+    border: rgba(14, 74, 147, 0.867) 3px solid;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: rgba(14, 74, 147, 0.867);
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    font-size: 40px;
 }
