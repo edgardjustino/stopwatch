@@ -24,7 +24,7 @@ body{
 
 .container {
     width: 350px;
-    height: 400px;
+    min-height: 310px;
     background-color: rgba(9, 53, 108, 0.69);
     border-radius: 10px;
     color: white;
@@ -42,7 +42,7 @@ h1 {
     top: 25px;
 }
 
-p{
+#time{
     font-size: 70px;
     color: rgba(14, 74, 147, 0.867);
     font-weight: 550;
@@ -80,17 +80,20 @@ button {
     cursor: pointer;
 }
 
-.lap-area {
+/* .lap-area {
     border-radius: 5px;
     border: rgba(14, 74, 147, 0.867) 3px solid;
     width: 84%;
     margin-bottom: 15px;
-}
+} */
 
 h2 {
     color: rgba(14, 74, 147, 0.867);
-    padding: 5px;
-    margin: 15px;
+    padding: 20px;
+    width: 84%;
+    border-radius: 5px;
+    margin: 10px;
     text-align: center;
     font-size: 40px;
+    border: rgba(14, 74, 147, 0.867) 3px solid;
 }
