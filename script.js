@@ -1,3 +1,7 @@
 //get elements
+let = [hour, min, sec] = [0, 0, 0]
 
-const time = document.querySelector('#time')
+function startwatch () {
+    if (sec == 0){
+        sec++
+}
