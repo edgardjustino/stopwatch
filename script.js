@@ -1,8 +1,12 @@
 let [hour, min, sec] = [0, 0, 0];
 let displayTime = document.getElementById('time');
-let interval = null; 
 
-function start () {
+let status = 'stopped';
+
+let interval = null; 
+let lapNow = null;
+
+function startStop () {
         sec++;
         if (sec == 60){
             sec = 0;
