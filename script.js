@@ -72,3 +72,5 @@ function reset (){
     document.getElementById('start-btn').innerHTML = 'Start';
     document.getElementById("start-btn").style.background = "rgba(9, 53, 108, 0.69)";
 }
+
+function lap(){}
