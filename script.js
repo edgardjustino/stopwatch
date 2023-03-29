@@ -73,4 +73,8 @@ function reset (){
     document.getElementById("start-btn").style.background = "rgba(9, 53, 108, 0.69)";
 }
 
-function lap(){}
+function lap(){
+    document.getElementById('time');
+    const laps = `${time.innerHTML}`;
+
+}
