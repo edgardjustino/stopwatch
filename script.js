@@ -79,7 +79,7 @@ function lap(){
     // const laps = `${time.innerHTML}`;
 
     lapnow = displayHour + '.' + displayMin + '.'+ displaySec;
-    document.getElementById('lap-time').innerHTML = lapnow;
+    document.getElementById('lap-time').innerHTML = document.getElementById('lap-time').innerHTML + "<p>"+ lapnow + "</p>"; 
 
 
 }
