@@ -71,10 +71,15 @@ function reset (){
     document.getElementById('lap-time').innerHTML = '';
     document.getElementById('start-btn').innerHTML = 'Start';
     document.getElementById("start-btn").style.background = "rgba(9, 53, 108, 0.69)";
+    document.getElementById('lap-time').innerHTML = '';
 }
 
 function lap(){
-    document.getElementById('time');
-    const laps = `${time.innerHTML}`;
+    // document.getElementById('time');
+    // const laps = `${time.innerHTML}`;
+
+    lapnow = displayHour + '.' + displayMin + '.'+ displaySec;
+    document.getElementById('lap-time').innerHTML = lapnow;
+
 
 }
